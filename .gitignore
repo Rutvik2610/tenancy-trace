@@ -1,0 +1,40 @@
+# .NET and IDE output
+**/bin/
+**/obj/
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+TestResults/
+**/TestResults/
+coverage/
+*.coverage*
+# Local configuration and credentials
+local.settings.json
+appsettings.Local.json
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.pem
+*.key
+.azure/
+# Storage emulators
+.azurite/
+__azurite*
+__blobstorage__/
+__queuestorage__/
+# Frontend
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+# OS and logs
+.DS_Store
+Thumbs.db
+*.log
+# Local toolchains
+.dotnet/

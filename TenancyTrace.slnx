@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TenancyTrace.Contracts/TenancyTrace.Contracts.csproj" />
+    <Project Path="src/TenancyTrace.Evidence.Functions/TenancyTrace.Evidence.Functions.csproj" />
+    <Project Path="src/TenancyTrace.Timeline.Functions/TenancyTrace.Timeline.Functions.csproj" />
+    <Project Path="src/TenancyTrace.Workflow.Functions/TenancyTrace.Workflow.Functions.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TenancyTrace.IntegrationTests/TenancyTrace.IntegrationTests.csproj" />
+    <Project Path="tests/TenancyTrace.UnitTests/TenancyTrace.UnitTests.csproj" />
+  </Folder>
+</Solution>
