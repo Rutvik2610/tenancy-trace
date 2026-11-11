@@ -22,14 +22,21 @@ src/
 tests/
   TenancyTrace.UnitTests/          Contract tests
   TenancyTrace.IntegrationTests/   In-process DI/HTTP-result composition tests
-docs/architecture/               Architecture, gaps, and follow-up work
-docs/adr/                        ADR-001 through ADR-005 placeholders
+docs/README.md                   Documentation index
+docs/architecture/               Original diagrams, foundation and import review
+docs/adr/                        Original ADR transcriptions
+docs/process-flows/              Five process sequence diagrams
+docs/state-models/               Event, report and AI summary state diagrams
+docs/source-images/              Original L1 diagram and ADR photographs
 .github/workflows/ci.yml           Restore, Release build, and tests
 ```
 
-See [architecture and constraints](docs/architecture/README.md). The ADR files are
-placeholders for existing decisions, not newly proposed decisions. Their approved
-content is required before implementing the dependent business behavior.
+See the [documentation index](docs/README.md) for the original architecture diagrams,
+process flows, state models, and ADR transcriptions with source screenshots.
+ADR-001 remains **Proposed**; ADR-002 through ADR-005 are **Accepted**.
+The [Phase 1 architecture and constraints](docs/architecture/README.md) describe the
+implemented foundation. The [import review](docs/architecture/import-review.md)
+records transcription differences, unresolved design tensions, and validation limits.
 
 ## Prerequisites
 

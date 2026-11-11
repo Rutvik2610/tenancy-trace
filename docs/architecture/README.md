@@ -1,5 +1,10 @@
 # Architecture foundation
 
+This document records the Phase 1 foundation. Original design material is now
+available in the [documentation index](../README.md); see the separate
+[import review](import-review.md) for status, source comparison, and open issues.
+References below to missing ADRs describe the Phase 1 baseline, before that import.
+
 ## Target system
 
 Three independently runnable .NET 10 Azure Functions isolated-worker services:
