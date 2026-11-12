@@ -37,6 +37,8 @@ This pack was assembled from the user's material shared in the ChatGPT conversat
 
 ## Repository navigation
 
+- [Phase 2A domain model and critical consistency design — Proposed](design/phase-2a/README.md)
+
 - [Phase 1 architecture and implementation boundaries](architecture/README.md)
 - [Phase 1 runtime validation](architecture/validation.md)
 - [Import review: transcription comparison, open issues, and Mermaid validation](architecture/import-review.md)
